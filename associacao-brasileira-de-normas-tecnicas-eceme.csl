@@ -175,7 +175,7 @@
         </date>
       </if>
       <else>
-        <text variable="URL" prefix="Disponível em: &lt;" suffix="&gt;"/>
+        <text variable="URL" prefix=". Disponível em: &lt;" suffix="&gt;"/>
         <date variable="accessed" prefix=". Acesso em: ">
           <date-part name="day" suffix=" "/>
           <date-part name="month" form="short" suffix=" " text-case="lowercase"/>
